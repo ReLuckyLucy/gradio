@@ -10,5 +10,3 @@ demo = gr.Interface(
 )
 
 demo.launch()#可在里面添加：share=True，使得其调用反向代理，并使得其能在公网下让他人访问你的代码
-with gr.Blocks(theme=gr.themes.Soft()) as demo:
-    ...
