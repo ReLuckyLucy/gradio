@@ -19,4 +19,4 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     intensity_slider.change(greet, inputs=[name_input, intensity_slider], outputs=output_text)
 
 # 启动应用，并设置 share 参数为 True 以允许公网访问
-demo.launch(share=True)
+demo.launch()
